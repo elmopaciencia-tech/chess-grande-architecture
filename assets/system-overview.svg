@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-labelledby="title desc">
+<title id="title">Chess Grande website architecture</title>
+<desc id="desc">Families and staff use a shared WordPress application. Custom modules manage bookings, tournaments, meetups, assessment and merchandise. WordPress content and domain tables share a database. Stripe, HitPay and email provide external integrations. This is a conceptual map of the local implementation, not a production deployment inventory.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#212f5f"/></marker></defs>
+<rect width="1200" height="880" rx="0" fill="#ffffff"/>
+<g font-family="DM Sans, Avenir Next, Helvetica Neue, Arial, sans-serif" fill="#212f5f">
+<rect x="48" y="29" width="312" height="32" fill="#adf1f9"/>
+<text x="60" y="52" font-size="13" font-weight="700" letter-spacing="2">CHESS GRANDE / ARCHITECTURE</text>
+<text x="48" y="100" font-size="35" font-weight="700">Website architecture</text>
+<text x="48" y="131" font-size="17" fill="#5c647c">WordPress publishing, custom domain modules and an embedded React assessment</text>
+
+<rect x="48" y="166" width="534" height="83" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="68" y="195" font-size="18" font-weight="700">Families and players</text>
+<text x="68" y="220" font-size="14" fill="#5c647c">Public pages, booking forms and chess interaction</text>
+<rect x="624" y="172" width="534" height="83" fill="#eb45ad"/><rect x="618" y="166" width="534" height="83" rx="0" fill="#fff5fb" stroke="#212f5f"/>
+<text x="638" y="195" font-size="18" font-weight="700">Staff</text>
+<text x="638" y="220" font-size="14" fill="#5c647c">Content editing, registrations and operational decisions</text>
+<path d="M310 249 L310 292" stroke="#212f5f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M884 249 L884 292" stroke="#212f5f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="294" width="1104" height="291" rx="0" fill="#eafcff" stroke="#1bc4df"/>
+<text x="70" y="326" font-size="16" font-weight="700">SHARED WORDPRESS APPLICATION</text>
+<text x="70" y="348" font-size="14" fill="#5c647c">Theme and custom presentation • PHP plugins and must-use modules • REST and admin handlers</text>
+<rect x="70" y="367" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="90" y="396" font-size="18" font-weight="700">Courses and private lessons</text>
+<text x="90" y="421" font-size="14" fill="#5c647c">Schedules, pricing and bookings</text>
+<rect x="430" y="367" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="450" y="396" font-size="18" font-weight="700">Tournament registration</text>
+<text x="450" y="421" font-size="14" fill="#5c647c">Rosters, payment and player capacity</text>
+<rect x="790" y="367" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="810" y="396" font-size="18" font-weight="700">Free meetups</text>
+<text x="810" y="421" font-size="14" fill="#5c647c">Sibling requests and staff review</text>
+<rect x="70" y="470" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="90" y="499" font-size="18" font-weight="700">React assessment</text>
+<text x="90" y="524" font-size="14" fill="#5c647c">Chess interaction and result handoff</text>
+<rect x="430" y="470" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="450" y="499" font-size="18" font-weight="700">Merchandise</text>
+<text x="450" y="524" font-size="14" fill="#5c647c">Product variants, orders and stock</text>
+<rect x="790" y="470" width="340" height="88" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="810" y="499" font-size="18" font-weight="700">Shared assessment credits</text>
+<text x="810" y="524" font-size="14" fill="#5c647c">Course and holiday credit lifecycle</text>
+<path d="M310 585 L310 626" stroke="#212f5f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M884 585 L884 626" stroke="#212f5f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="628" width="534" height="103" rx="0" fill="#ffffff" stroke="#212f5f"/>
+<text x="68" y="657" font-size="18" font-weight="700">WordPress database</text>
+<text x="68" y="682" font-size="14" fill="#5c647c">Editorial content and module-owned tables</text>
+<text x="68" y="703" font-size="14" fill="#5c647c">Registrations, snapshots, access and event records</text>
+<rect x="624" y="634" width="534" height="103" fill="#eb45ad"/><rect x="618" y="628" width="534" height="103" rx="0" fill="#fff5fb" stroke="#212f5f"/>
+<text x="638" y="657" font-size="18" font-weight="700">External integrations</text>
+<text x="638" y="682" font-size="14" fill="#5c647c">Stripe for lesson, course and tournament payments</text>
+<text x="638" y="703" font-size="14" fill="#5c647c">HitPay for merchandise • Email for notifications</text>
+<path d="M48 757 H1152" stroke="#eb45ad" stroke-width="2"/>
+<text x="48" y="785" font-size="16" font-weight="700">Module responsibilities</text>
+<text x="48" y="812" font-size="15" fill="#5c647c">Separate modules handle paid registrations, family requests and chess assessment.</text>
+<text x="48" y="847" font-size="12" fill="#5c647c">Conceptual local implementation map • Reviewed 11 October 2026 • Source code remains private</text>
+</g></svg>
